@@ -1,0 +1,11 @@
+﻿@{
+    if (Context.Request.Query["Modal"] == "true")
+    {
+        Layout = "_Modal";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+    
+}
